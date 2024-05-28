@@ -29,6 +29,8 @@ O projeto no estado atual foi implementado os controllers e os models para as du
 E a primeira opeção de Read na tabela de NotaFiscal.
 O próximo passo seria a implementação das demais operações crud para o primiero model.
 
+As classes de layout precisam de ajuste nos arquivos de estilo.
+
 A ideia seria utilizar o padrão Repository para acessar os dados fora do Controller de cada entidade.
 
 ## About Laravel
