@@ -10,7 +10,8 @@
                   <thead>
                     <tr>
                       <th scope="col">Key</th>
-                      <th scope="col">Produto</th>
+                      <th scope="col">Emissor</th>
+                      <th scope="col">Data</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -23,8 +24,9 @@
                     </tr>
                       @foreach ($notasFiscais as $notaFiscal )
                           <tr>
-                              <td> <p>{{$notaFiscal->key}}</p></td>
+                              <td> <p>{{$notaFiscal->idNota}}</p></td>
                               <td> <p>{{$notaFiscal->emissor}}</p></td>
+                              <td> <p>{{$notaFiscal->data}}</p></td>
                               <td>
                                 <div class="d-flex justify-content-center">
                                   <a type="button" class="btn btn-secondary" href="">
