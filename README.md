@@ -2,7 +2,7 @@
 ## Configuração do projeto 
 Setup
 
-Laravel version 8.1,
+Laravel version 8.1: https://laravel.com/docs/8.x/vite, 
 PHP version 8.1 instalado pelo xampp
 Composer version 2.7.4 2024-04-22 21:17:03
 MySQL Community Server - GPL version 8.0.36. windows: https://dev.mysql.com/downloads/
